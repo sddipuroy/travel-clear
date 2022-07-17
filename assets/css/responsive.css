@@ -1,0 +1,359 @@
+@media all and (max-width: 1200px) {
+  /* Header aria start  */
+  .container {
+    padding: 0 2rem;
+    box-sizing: border-box;
+  }
+  .menu ul li {
+    margin: 0px 2.25rem;
+  }
+  .content-img img {
+    height: auto;
+  }
+  /* Next Trip aria start */
+  .next-trip-main-aria {
+    padding: 0 9rem;
+  }
+  /* Testimonials Aria start */
+  .testi-dtls-shado {
+    left: 3rem;
+  }
+}
+@media all and (min-width: 991px){
+  .menu ul{
+    display: flex !important;
+  }
+}
+@media all and (max-width: 990px) {
+  /* Header aria start  */
+  .header-top{
+    position: relative;
+  }
+  .menu ul {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    background: #F1A501;
+    padding: 5rem 0;
+    width: 100%;
+    top: 7.8rem;
+    left: 0;
+    z-index: 8888;
+  }
+  .menu ul li a{
+    padding: 1rem 0;
+    display: inline-block;
+  }
+  .menu ul li a:hover{
+    color: #000;
+  }
+  .header-right .menu-icon {
+    display: inline-block;
+  }
+  .content-text h3 {
+    margin-top: 0rem;
+  }
+  .content-text h1 {
+    font-size: 6.4rem;
+  }
+  /* Service Section aria start  */
+  .service-title:after {
+    display: none;
+  }
+  .section-mr {
+    margin: 5rem 0;
+  }
+  .service-title h2 {
+    font-size: 4rem;
+    margin: 2rem 0 3rem 0;
+  }
+  .services {
+    -ms-grid-columns: (1fr) [2];
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 3rem;
+  }
+  /* Next Trip aria start */
+  .next-trip-main-aria {
+    -ms-grid-columns: (1fr) [1];
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .next-trip-left {
+    margin: auto;
+  }
+  .next-trip-main-aria {
+    padding: 0;
+  }
+  .next-trip-right {
+    margin: auto;
+  }
+  /* Testimonials Aria start */
+  .service-title h2 {
+    font-size: 3.5rem;
+  }
+  .testi-dtls {
+    width: 40rem;
+  }
+  .testi-dtls-shado {
+    width: 40rem;
+  }
+  .testi-dtls-shado {
+    left: 0;
+  }
+  /* Newsleater aria start  */
+  .newsleater {
+    padding: 4rem;
+  }
+  .news-leater-img img:last-child {
+    width: 17rem;
+  }
+  .news-leater-img img:first-child {
+    left: -4rem;
+    width: 24rem;
+  }
+  /* Footer aria start */
+  .footer-aria {
+    grid-column-gap: 2rem;
+  }
+  /* Footer aria end */
+}
+@media all and (max-width: 767px) {
+  .section-pd {
+    padding: 4rem 0;
+  }
+  /* Header aria start  */
+  .header-conteint {
+    -ms-grid-columns: (1fr) [1];
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+  .content-text h1 {
+    font-size: 5.4rem;
+  }
+  .content-text p {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    margin: auto;
+  }
+  .button-aria {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+  /* Service Section aria start  */
+  .services {
+    -ms-grid-columns: (1fr) [1];
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 5rem;
+  }
+  .singel-service {
+    margin: 0 9rem;
+  }
+  /* Destinations aria start  */
+  .destination-items {
+    -ms-grid-columns: (1fr) [2];
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 3rem;
+  }
+  .single-item:last-child {
+    -ms-grid-column: span 2;
+    grid-column: span 2;
+  }
+  /* Next Trip aria start */
+  .trip-over {
+    width: 53%;
+    right: -10rem;
+  }
+  /* Testimonials Aria start */
+  .testimonial-main-aria {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .testi-left-aria {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 10rem;
+  }
+  .testi-right-aria {
+    max-width: 100%;
+    margin: auto;
+  }
+  .dots span {
+    margin: 0rem 1rem 0 0;
+  }
+  /* Hero aria start */
+  .items {
+    -ms-grid-columns: (1fr) [3];
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 3rem;
+  }
+  /* Newsleater aria start  */
+  .input-from {
+    width: 25rem;
+  }
+  .news-form {
+    padding-top: 2rem;
+  }
+  /* Footer aria start */
+  .footer-last-child {
+    max-width: 480px;
+    margin: auto;
+  }
+  .footer-aria {
+    -ms-grid-columns: (1fr) [3];
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    grid-row-gap: 2rem;
+  }
+  .footer-social-ber ul {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  /* Footer aria end */
+}
+@media all and (max-width: 576px) {
+  /* Header aria start  */
+  .header-top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .menu ul{
+    top: 15rem;
+  }
+  .header-midle {
+    margin-top: 3rem;
+  }
+  /* Destinations aria start  */
+  .destination-items {
+    margin: 0rem 4rem;
+  }
+  .destination-items {
+    -ms-grid-columns: (1fr) [1];
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .single-item:last-child {
+    -ms-grid-column: span 1;
+    grid-column: span 1;
+  }
+  /* Next Trip aria start */
+  .trip-over {
+    display: none;
+  }
+  /* Testimonials Aria start */
+  .testi-dtls {
+    width: 100%;
+  }
+  .testi-dtls-shado {
+    max-width: 100%;
+  }
+  .testi-dtls-img {
+    left: 40%;
+  }
+  .testi-dtls {
+    padding-top: 5rem;
+    text-align: center;
+  }
+  .testi-dtls-shado {
+    text-align: center;
+    padding-top: 4rem;
+  }
+  /* Newsleater aria start  */
+  .news-form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .news-form .btn {
+    margin-top: 2rem;
+  }
+  /* Footer aria start */
+  .footer-aria {
+    -ms-grid-columns: (1fr) [1];
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 3rem;
+  }
+  .footer-single-item h2 {
+    margin-bottom: 0;
+  }
+  .footer-left-side p {
+    margin: auto;
+  }
+  /* Footer aria end */
+}
+@media all and (max-width: 480px) {
+  /* Header aria start  */
+  .header-right .sing {
+    padding: 8px 12px;
+  }
+  .content-text h1 {
+    font-size: 4.4rem;
+  }
+  /* Service Section aria start  */
+  .section-mr {
+    margin: 1rem 0;
+  }
+  .service-title h2 {
+    font-size: 3rem;
+    margin: 2rem 0 1rem 0;
+  }
+  .singel-service {
+    margin: 0 3rem;
+  }
+  /* Destinations aria start  */
+  .service-title {
+    margin-top: 7rem;
+  }
+  /* Next Trip aria start */
+  .trip-containt {
+    width: 35rem;
+    margin: auto;
+  }
+  .trip-single {
+    margin: 2rem 0;
+  }
+  .section-pd {
+    padding: 3rem 0;
+  }
+  /* Newsleater aria start  */
+  .input-from {
+    width: 22rem;
+  }
+  .news-from-ber {
+    margin-right: 2rem auto;
+  }
+  /* Footer aria end */
+}
+@media all and (max-width: 400px) {
+  .button-aria .btn {
+    font-size: 1rem;
+  }
+  .content-text .play i {
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    font-size: 2rem;
+    margin-right: 2rem;
+  }
+  .trip-containt {
+    width: 30rem;
+  }
+  .items {
+    margin-top: 7rem;
+  }
+  .header-right .sing {
+    margin: 0;
+  }
+  .header-right .sing {
+    padding: 6px 7px;
+  }
+  .content-text h1 {
+    font-size: 3.4rem;
+  }
+}
